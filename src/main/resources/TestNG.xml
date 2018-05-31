@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Actitime Reggression" verbose="4" >
+ 	
+ 	 <listeners>
+  			<listener class-name="com.actitime.extentreports.ExtentReporterListener" />
+  			<listener class-name="com.actitime.analyzer.Transformer" />
+  			
+  			
+ 	 </listeners>
+ 
+  <test name="ActiTime">
+
+     <classes>
+          <class name="com.actitime.testcases.LoginPageTest"/>
+  <!--    <class name="com.actitime.testcases.HomePageTest"/>
+      <class name="com.actitime.testcases.ProjectsAndCustomersPageTest"/>
+      <class name="com.actitime.testcases.AddNewCustomerPageTest"/>
+        -->
+    </classes>
+    
+ </test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [Actitime Reggression]">
+  <listeners>
+    <listener class-name="com.actitime.extentreports.ExtentReporterListener"/>
+  </listeners>
+  <test name="ActiTime(failed)">
+    <classes>
+      <class name="com.actitime.testcases.LoginPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="logintest"/>
+          <include name="loginPageIconValidate"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.actitime.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- ActiTime(failed) -->
+</suite> <!-- Failed suite [Actitime Reggression] -->
